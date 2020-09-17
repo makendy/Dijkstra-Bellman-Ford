@@ -1,0 +1,58 @@
+Created by Makendy PITON
+Little implementation of Dijkstra and Bellman-Ford agorithms with Paris metros 
+The job :
+Compute and display the shortest route between src and dst.
+  Example:
+   % ./metro_ref "le kremlin-bicêtre" "porte de la chapelle"
+   src:  161  le kremlin-bicêtre
+   dst:  276  porte de la chapelle
+   Estimated time to connect "Le Kremlin-Bicêtre" to "Porte de la Chapelle": 1402 seconds
+    - Le Kremlin-Bicêtre
+      (39 seconds)
+    - Maison Blanche
+      (36 seconds)
+    - Tolbiac
+      (37 seconds)
+    - Place d'Italie
+      (60 seconds)
+    - Les Gobelins
+      (42 seconds)
+    - Censier Daubenton
+      (40 seconds)
+    - Place Monge
+      (57 seconds)
+    - Jussieu
+      (79 seconds)
+    - Sully Morland
+      (75 seconds)
+    - Pont-Marie
+      (73 seconds)
+    - Châtelet
+      (120 seconds)
+    - Châtelet
+      (66 seconds)
+    - Les Halles
+      (33 seconds)
+    - Étienne Marcel
+      (28 seconds)
+    - Réaumur Sébastopol
+      (67 seconds)
+    - Strasbourg Saint-Denis
+      (41 seconds)
+    - Château d'Eau
+      (57 seconds)
+    - Gare de l'Est
+      (67 seconds)
+    - Gare du Nord
+      (46 seconds)
+    - Barbès Rochechouart
+      (28 seconds)
+    - Château Rouge
+      (57 seconds)
+    - Marcadet Poissonniers
+      (120 seconds)
+    - Marcadet Poissonniers
+      (67 seconds)
+    - Marx Dormoy
+      (67 seconds)
+    - Porte de la Chapelle
